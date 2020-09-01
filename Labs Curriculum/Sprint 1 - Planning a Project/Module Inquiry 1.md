@@ -35,8 +35,8 @@ Users (web) should be able to view JSON endpoints of a city's statistics (MVP: r
 The appropriate data need to be found and scraped if needed. These data need to be organized into a Pandas DataFrame. Either that DataFrame itself or a series of visualizations need to be converted to JSON format, and routes need to built into a FastAPI with Doc Strings so that the Web Developers will have access to them and know how to use them.
 
     - What did you do well in this task breakdown process? What were some challenges?
-        I will let others be the judge of this.
+        Parth thought that we should link the Web and DS tasks together in the Trello board.
     
 ### 4. After what you've learned in this process, given a new product roadmap, how would you approach it differently? What would you change about the way you go about breaking down individual tasks?
 
-At this stage, I would not really change anything.
+I honestly would not have approached it signifigantly differently. I would simply have chunked certain tasks up from the beginning to avoid redundancy.
