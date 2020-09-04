@@ -35,9 +35,21 @@ We took these questions and cooked them into your labs experience. Please answer
         - Test function in AWS deployment
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When the Data Science team broke this user story into individual steps, we essentially drew on our experience
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When the Data Science team broke this user story into individual steps, we essentially drew on our experience in building Flask apps using data from third-party APIs. We simply applied this to the specific case of dealing with weather data and swapped out Flask for FastAPI and Heroku for AWS. We also accounted for the fact that the template came with a Docker image. Step 5 is included both to stay in line with what Ryan Herr expects of us and to act as a refresher for those of us who forgot pretty much everything we learned about Docker in Unit 3.
 
 3. How long do you think the above user story will take to complete? Explain your reasoning.
+
+Without including the predictive model elements of the task: roughly 1.5 weeks
+    - 1 day to figure out the API and pull the minimum amount of data to meet the project requirements
+    - 1-2 days to clean the data and extract the approprate data from it.
+    - 1-2 days to build working functions for displaying the appropriate single-value and visualization data.
+    - 2-3 days to get frustrated with Amazon Web Service if it's as much of a pain as Heroku was
+    
+Including the predictive model elements of the task: roughly 2.5 - 3.0 weeks
+    - All of the above steps
+    - Added time to attempt simple linear and tree-based models
+    - Added time to research and apply time-series analysis techniques to model
+    - Added time to build more functions and more FastAPI routes needed to spit back future predictions
 
 ## Prompt 2 - Communicating Technical Decisions
 
@@ -51,8 +63,17 @@ These sorts of questions inform your entire labs experience. You made a few tech
 ### Questions you need to answer
 
 1. Describe a technical decision you made. How did you make that decision?
+
+My Data Science colleagues and I decided to use a Pip Environment while including a global requirenments.txt file.
+
+
 2. What are some of the risks given the decision you made?
+
+Potentially slower API calls and slower app performance.
+
 3. What challenges do you foresee in using the architecture your team selected?
+
+One of us forgetting to update the requirenments.txt file, or conflicting versions of Python for Pipenv users.
 
 ## Prompt 3 - Professional Development 
 
