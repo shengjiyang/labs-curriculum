@@ -19,7 +19,24 @@ We took these questions and cooked them into your labs experience. Please answer
 ### Questions you need to answer
 
 1. Describe your **process** of breaking a release into user stories.
+    - **Step 1**: The team should begin by asking itself the question, what is this application, program, website, etc. supposed to do?
+    - **Step 2**: Based on the answer or answers to the question in **Step 1** begin by jotting down a single or multiple broad user stories.
+    - **Step 3**: Take the broad user story or stories and itteratively break each story down until each user story is defined as a discrete unit linked to any and all prerequisite stories.
 2. Choose a user story. Describe your **reasoning** as you broke down that particular user story into individual tasks.
+<br\>
+**Users should be able to compare cities based on weather (by season) and see visualizations of the comparisons.**
+    - **Steps**
+        - Query data science API to gather relevant info about cities
+        - Determine what weather information to include (avg temp? avg precipitation? seasonal?)
+        - Create a function to generate visuals of above weather stats for a city and return JSON output of the visualization
+        - Deploy function into FastAPI
+        - Test function locally via Docker (on each DS student's machine)
+        - Deploy function to AWS 
+        - Test function in AWS deployment
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When the Data Science team broke this user story into individual steps, we essentially drew on our experience
+
 3. How long do you think the above user story will take to complete? Explain your reasoning.
 
 ## Prompt 2 - Communicating Technical Decisions
@@ -44,6 +61,8 @@ These sorts of questions inform your entire labs experience. You made a few tech
 This lesson we reinforced how to turn your responsibilities and tasks into power statements. To practice, write a few power statements you intend to use in your LinkedIn profile. Before writing those statements, ensure your LinkedIn has all the following content checked off.
 
 Add a link to your Linkedin in your sprint challenge submission document.
+
+[My LinkedIn](https://www.linkedin.com/in/samuel-swank/)
 
 ## Personal and Contact Information:
 
